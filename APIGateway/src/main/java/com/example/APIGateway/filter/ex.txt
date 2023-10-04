@@ -1,0 +1,1 @@
+Zuul filters store request and state information in (and share it by means of) the RequestContext. You can use that to get at the HttpServletRequest and then log the HTTP method and URL of the request before it is sent on its way.
